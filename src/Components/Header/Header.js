@@ -22,10 +22,10 @@ const history=useHistory()
   return (
     <div className="headerParentDiv">
       <div className='me-auto' >
-        <Link  to='/'>Home</Link>
-        <Link   to='/signup'>Signup</Link>
-        <Link   to='/login'>Login</Link>
-        <Link   to='/create'>Create</Link>
+        <Link className='p-2 mr-3'   to='/'>Home</Link>
+        <Link className='p-2 mr-3'   to='/signup'>Signup</Link>
+        <Link className='p-2 mr-3'   to='/login'>Login</Link>
+        <Link className='p-2 mr-3'   to='/create'>Create</Link>
       </div>
       <div className="headerChildDiv">
         <div className="brandName">
